@@ -1,0 +1,121 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    position: relative;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/textured_paper.png")
+}
+
+.mynav {
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+#myh1 {
+    font-size: 22pt;
+    text-align: center;
+    width: 200px;
+    height: 70px;
+    padding-top: 15px;
+    background-color: #4aaaa5;
+    color: #ffffff
+}
+
+.mynavbar {
+    font-size: 16pt;
+    color: #777777;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+.title {
+    padding-top: 15px;
+    height: 60px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #cccccc;
+}
+
+h2 {
+    margin-left: 15px;
+    color: #4aaaa5;
+    font-size: 22pt;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 15pt;
+    color: #777777;
+}
+
+section {
+    background-color: #ffffff;
+    overflow: hidden;
+    padding-bottom: 35px;
+}
+
+#profile {
+    float: left;
+    margin: 15px;
+}
+
+.push {
+    height: 100px;
+}
+
+footer {
+    text-align: center;
+    height: 50px;
+    background-color: #777777;
+    color: #cccccc;
+    position: absolute;
+    bottom: 0;
+    border-top: 8px solid #4aaaa5;
+    padding-top: 5px;
+}
+
+.imgbox {
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 280px;
+    height: 280px;
+}
+
+.imgtext {
+    position: absolute;
+    display: inline-block;
+    bottom: 30px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #4aaaa5;
+    font-size: 20pt;
+    color: #ffffff;
+    text-align: center;
+}
+
+.form {
+    font-size: 15pt;
+    line-height: 1.5;
+    color: #777777;
+}
+
+.name {
+    width: 35%;
+}
+
+.message {
+    height: 150px;
+    width: 100%;
+}
+
+.submit {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 100px;
+    height: 40px;
+}

@@ -1,30 +1,48 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title> Bootstrap Portfolio </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <title>Bootstrap Portfolio</title>
     </head>
+
 <body>
-    <header>
-        <div>
-            <h1>David Tardy</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">About Me</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-0 mynav"> 
+            <div class="container ">
+                <a class="navbar-brand text-white" id="myh1" href="index.html">David Tardy</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse justify-content-end">
+                      <a class="nav-item nav-link border-right mynavbar"  href="index.html">About Me <span class="sr-only">(current)</span></a>
+                      <a class="nav-item nav-link border-right mynavbar" href="portfolio.html">Portfolio</a>
+                      <a class="nav-link mynavbar" href="contact.html">Contact</a>
+                </div>
+                  </div>
+                </div>
+              </nav>
+    
+    <section class="container">
+        <div class="title">
+            <h2>Contact</h2>
         </div>
-    </header>
-    <section>
-        <h1>Contact</h1>
-
+        <form class="form">
+            Name:<br>
+            <input class="form name" type="text"><br>
+            Email:<br>
+            <input class="form name" type="text" name="email"><br>
+            Message:<br>
+            <input class="form message" type="text" name="message"><br>
+            <input class="form submit" type="submit" value="Submit">
+        </form>
+        
     </section>
-    <footer>
-
+    <div class="push"></div>
+    <footer class="container-fluid">
+        &copy; Copyright
     </footer>
-</body>
+</body>  
 </html>
